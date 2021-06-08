@@ -28,4 +28,4 @@ jobs:
       if: success() && github.ref == 'refs/heads/main'
       with:
         PROJECT_FILE_PATH: SamsonsForge.TypedServiceScopeFactory/SamsonsForge.TypedServiceScopeFactory.csproj
-        NUGET_KEY: ${{ secrets.GITHUB_TOKEN }}
+        NUGET_KEY: ${{ secrets.NUGET_API_KEY }}
