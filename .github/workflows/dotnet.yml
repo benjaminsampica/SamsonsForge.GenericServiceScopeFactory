@@ -5,6 +5,8 @@ on:
     branches: [ main ]
   pull_request:
     branches: [ main ]
+  paths-ignore:
+      - '**/README.md'
 
 jobs:
   build:
@@ -21,7 +23,7 @@ jobs:
       run: dotnet build --no-restore
     - name: Publish NuGet
       uses: brandedoutcast/publish-nuget@v2.5.5
-      if: github.ref == 'refs/head/main'
+      if: success() && github.ref == 'refs/heads/main'
       with:
         PROJECT_FILE_PATH: SamsonsForge.TypedServiceScopeFactory.csproj
         NUGET_KEY: ${{ secrets.GITHUB_TOKEN }}
