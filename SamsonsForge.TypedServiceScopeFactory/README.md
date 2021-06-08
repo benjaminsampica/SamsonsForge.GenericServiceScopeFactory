@@ -1,5 +1,7 @@
 ﻿# About
 
+[![.NET](https://github.com/benjaminsampica/SamsonsForge.TypedServiceScopeFactory/actions/workflows/dotnet.yml/badge.svg)](https://github.com/benjaminsampica/SamsonsForge.TypedServiceScopeFactory/actions/workflows/dotnet.yml)
+
 This repository and package is intended to smooth the `Service Locator` anti-pattern by offering a typed factory that can be injected. 
 Specifically, this conveys dependencies at design-time that are used by a service scope. Additionally, it makes testing a bit easier.
 
