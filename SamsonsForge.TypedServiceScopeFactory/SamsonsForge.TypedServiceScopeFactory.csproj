@@ -2,7 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
     <Version>1.0.0</Version>
     <Description>Provides a strongly-typed service scope factory for modern .NET applications.</Description>
     <PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
