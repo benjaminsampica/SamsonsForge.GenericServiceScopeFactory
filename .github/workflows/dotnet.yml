@@ -2,11 +2,13 @@ name: .NET
 
 on:
   push:
+    paths-ignore:
+      - '**/README.md'
     branches: [ main ]
   pull_request:
-    branches: [ main ]
-  paths-ignore:
+    paths-ignore:
       - '**/README.md'
+    branches: [ main ]
 
 jobs:
   build:
