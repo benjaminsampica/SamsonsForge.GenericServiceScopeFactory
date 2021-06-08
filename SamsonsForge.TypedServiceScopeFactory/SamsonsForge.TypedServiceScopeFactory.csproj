@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<Version>1.0.0</Version>
+	<Description>Provides a strongly-typed service scope factory for modern .NET applications.</Description>
+	<PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
+	<RepositoryUrl>https://github.com/benjaminsampica/samsonsforge.typedservicescopefactory</RepositoryUrl>
+	<RepositoryType>Git</RepositoryType>
+	<Authors>Ben Sampica</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Include="README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
+
+</Project>
