@@ -2,17 +2,17 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <Version>1.0.0</Version>
+    <Version>2.0.0</Version>
     <Description>Provides a strongly-typed service scope factory for modern .NET applications.</Description>
-    <PackageReleaseNotes>Initial Release.</PackageReleaseNotes>
-    <RepositoryUrl>https://github.com/benjaminsampica/samsonsforge.typedservicescopefactory</RepositoryUrl>
+    <PackageReleaseNotes>Specify license and downgrade dependency.</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/benjaminsampica/SamsonsForge.TypedServiceScopeFactory</RepositoryUrl>
     <RepositoryType>Git</RepositoryType>
     <Authors>Ben Sampica</Authors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.0.0" />
   </ItemGroup>
 
 </Project>
