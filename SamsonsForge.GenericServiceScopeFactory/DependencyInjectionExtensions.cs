@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace SamsonsForge.TypedServiceScopeFactory
+namespace SamsonsForge.GenericServiceScopeFactory
 {
 #pragma warning disable CS1591 // Missing XML comment for publicly visible type or member
     public static class DependencyInjectionExtensions
@@ -11,7 +11,7 @@ namespace SamsonsForge.TypedServiceScopeFactory
         /// </summary>
         /// <param name="serviceCollection"></param>
         /// <returns></returns>
-        public static IServiceCollection AddTypedServiceScopeFactory(this IServiceCollection serviceCollection)
+        public static IServiceCollection AddGenericServiceScopeFactory(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddSingleton(typeof(IServiceScopeFactory<>), typeof(ServiceScopeFactory<>));
 

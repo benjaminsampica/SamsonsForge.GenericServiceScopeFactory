@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SamsonsForge.TypedServiceScopeFactory
+namespace SamsonsForge.GenericServiceScopeFactory
 {
     /// <inheritdoc cref="IServiceScopeFactory" />
     public interface IServiceScopeFactory<out T> where T : class
