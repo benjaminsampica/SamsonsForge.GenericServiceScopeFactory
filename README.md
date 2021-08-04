@@ -10,8 +10,9 @@ _However_, it should **not** be the preferred method. See the Microsoft [recomme
 
 # Using
 
-1. Import the namespace ```SamsonsForge.GenericServiceScopeFactory```
-2. Register the factory to the service container with either
+1. Add the `SamsonsForge.GenericServiceScopeFactory` nuget package reference to your project via `dotnet add reference SamsonsForge.GenericServiceScopeFactory` or via your IDE's built-in NuGet manager.
+2. Import the namespace ```SamsonsForge.GenericServiceScopeFactory```
+3. Register the factory to the service container with either
 
 the built in registrar
 
